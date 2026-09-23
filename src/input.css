@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Custom background image & overlay ala style.css lo */
+body {
+  background-image: linear-gradient(to bottom, rgba(10, 10, 10, 0.85), rgba(20, 20, 20, 0.95)), 
+                    url('../assets/1292433.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@media (max-width: 640px) {
+  nav span {
+    font-size: 1rem; /* Bikin logo navbar sedikit lebih kecil di HP */
+  }
+}
